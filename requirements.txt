@@ -1,0 +1,11 @@
+# MirrorHand Dependencies
+# Compatible with Python 3.9 - 3.12
+#
+# MediaPipe Note: We pin mediapipe to 0.10.14 with opencv-python 4.10.0.84.
+# This provides the self-contained MediaPipe Solutions API (mp.solutions.hands)
+# which bundles the hand landmark neural network models directly within the package,
+# avoiding runtime model bundle downloads and setup friction during hackathons.
+
+opencv-python==4.10.0.84
+mediapipe==0.10.14
+pyserial==3.5
